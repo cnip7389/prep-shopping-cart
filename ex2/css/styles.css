@@ -1,0 +1,96 @@
+#header{
+	height: 90px;
+	width: 100%;
+	background-color: #FFA500;
+}
+
+#header img{
+	position: absolute;
+	margin: 25px;
+}
+
+#header span{
+	position: absolute;
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	color: #B26900;
+	margin-top: 33px;
+	margin-left: 90px;
+}
+
+#cartItems{
+	padding-top: 90px;
+	padding-left:90px;
+	padding-right:90px;
+	margin: auto;
+}
+
+.itemWrapper{
+	display: block;
+	border-width: 1px;
+	border-top: solid;
+	border-color: #D6D6D6;
+}
+
+.itemImage{
+	width: 90px;
+	display:inline-block;
+	margin-right: 30px;
+
+}
+
+.itemImage img{
+	width: 80px;
+	height: 80px;
+	padding-top: 15px;
+	padding-bottom: 0px;
+}
+
+.itemNameDescrip{
+	display:inline-block;
+	position: absolute;
+	margin-top: 33px;
+	line-height: 12px;
+	width: 650px;
+	font-family: Trebuchet MS;
+}
+
+.quantity{
+	display: inline-block;
+	position: absolute;
+	margin-top: 35px;
+	margin-left: 655px;
+	width: 100px;
+}
+
+.itemPrice {
+	display: inline-block;
+	float: right;
+	margin-top: 35px;
+	width: 100px;
+	font-family: Trebuchet MS;
+	font-size: 18px;
+}
+
+#total{
+	display: block;
+	font-family: Trebuchet MS;
+	font-size: 18px;
+	font-weight: bold;
+	border-width: 1px;
+	border-top: solid;
+	border-color: #D6D6D6;
+	padding-top: 40px;
+	padding-left:90px;
+	padding-right:90px;
+	padding-bottom: 30px;
+	margin: auto;
+}
+
+#total #subtotal{
+	margin-left: 120px;;
+}
+
+#total #calculate{
+	margin-left: 580px;
+}
