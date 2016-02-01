@@ -1,0 +1,100 @@
+#header{
+	height: 90px;
+	width: 100%;
+	background-color: #FFA500;
+}
+
+#header img{
+	position: absolute;
+	margin: 25px;
+}
+
+#header span{
+	position: absolute;
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	color: #B26900;
+	margin-top: 33px;
+	margin-left: 90px;
+}
+
+#cartItems{
+	padding-top: 90px;
+	padding-left:90px;
+	padding-right:90px;
+	margin: auto;
+}
+
+.itemWrapper{
+	display: block;
+	border-width: 1px;
+	border-top: solid;
+	border-color: #D6D6D6;
+}
+
+/*#item{
+	border-width: 3px;
+	border-style: none none solid none;
+	border-color: #D6D6D6;
+}*/
+
+.itemImage{
+	width: 90px;
+	display:inline-block;
+	margin-right: 30px;
+
+}
+
+.itemImage img{
+	width: 80px;
+	height: 80px;
+	padding-top: 15px;
+	padding-bottom: 0px;
+}
+
+/*.itemWrapper.itemNameDescrip span{
+	font-size: 12px;
+	font-weight: normal;
+	padding: 0px;
+}*/
+
+.itemNameDescrip{
+	display:inline-block;
+	position: absolute;
+	margin-top: 33px;
+	line-height: 12px;
+	width: 712px;
+	font-family: Trebuchet MS;
+
+}
+/*	font-size: 16px;
+	font-weight: normal;*/
+
+/*.itemDescription{
+	font-size: 12px;
+	font-weight: normal;
+	margin-left:110px;
+*/
+
+.itemPrice {
+	display: inline-block;
+	float: right;
+	width: 100px;
+	font-family: Trebuchet MS;
+	font-size: 18px;
+}
+
+#total{
+	font-family: Trebuchet MS;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 40px;
+	padding-left:200px;
+	margin: auto;
+}
+
+#total span{
+	margin-right: 40%;
+}
+
+
