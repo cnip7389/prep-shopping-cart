@@ -1,6 +1,3 @@
-//console.log(shoppingCart[0]["name"]); //Luscious Jello Mix
-//console.log(shoppingCart[0]["description"]); //["Very Elegant"...]
-
 window.onload = function(){
 
 var shoppingCart =
@@ -28,7 +25,7 @@ for (var i=0; i<shoppingCart.length; i++){
 
 	var itemNameDescrip = document.createElement("div");
   itemNameDescrip.className = ("itemNameDescrip");
-  itemNameDescrip.innerHTML = shoppingCart[i].name + "<br /> <br /> <span>" + shoppingCart[i].description + "</span>";
+  itemNameDescrip.innerHTML = "<span>" + shoppingCart[i].name + "</span> <br /> <br /> <span>" + shoppingCart[i].description + "</span>";
   document.getElementsByClassName("itemWrapper")[i].appendChild(itemNameDescrip);
   	
   //var description = document.createElement("div");
